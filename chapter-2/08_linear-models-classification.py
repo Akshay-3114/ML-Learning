@@ -11,6 +11,10 @@
 # the decision boundary is a linear function of the input. In other words, a (binary) linear classifier is a 
 # classifier that separates two classes using a line, a plane, or a hyperplane.
 
+# The two most common linear classification algorithms are logistic regression, implemented 
+# in linear_model.LogisticRegression, and linear support vector machines(linear SVMs), 
+# implemented in svm.LinearSVC (SVC stands for support vector classifier)
+
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
